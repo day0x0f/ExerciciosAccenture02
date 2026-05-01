@@ -1,4 +1,5 @@
 package Atividade10;
 
-public class OrderStatus {
+public enum OrderStatus {
+    PENDING, RESERVED, PAID, FAILED, CANCELLED
 }
